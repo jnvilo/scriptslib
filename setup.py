@@ -78,13 +78,14 @@ setup(
     classifiers=[
         # http://pypi.python.org/pypi?%3Aaction=list_classifiers
         #"Development Status :: 5 - Production/Stable",
-        "Environment :: Systems",
+        "Environment :: Console",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License (GPL)",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
-        "Topic :: Documentation",
+        "Topic :: Software Development :: Libraries",
         ],
     #test_suite="yacms.tests.get_test_suite",
 )
