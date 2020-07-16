@@ -34,7 +34,7 @@ def get_authors():
 def get_requirements():
     reqs = []
     try:
-        f = file(os.path.join(PACKAGE_ROOT,"requirements.txt"), "r")
+        f = open(os.path.join(PACKAGE_ROOT,"requirements.txt"), "r")
         l = f.readlines()
         for e in l:
             reqs.append(e.strip("\n"))
