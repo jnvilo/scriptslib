@@ -15,7 +15,7 @@ import sys
 
 from setuptools import setup, find_packages, Command
 
-VERSION_STRING="0.0.1"
+VERSION_STRING="0.0.2"
 PACKAGE_NAME = "scriptslib"
 URL = "https://github.com/jnvilo/scriptslib"
 DOWNLOAD_URL="{}/archive/{}.tar.gz".format(URL, VERSION_STRING)
