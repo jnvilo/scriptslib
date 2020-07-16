@@ -3,12 +3,16 @@ Name: scriptslib
 Version: 0.0.1
 Summary: Collection of commonly used scripts into a packaged format.
 Home-page: https://github.com/jnvilo/scriptslib
-Author: [Error: [Errno 2] No such file or directory: '/home/jasonviloria/devops/scripts/scriptslib/AUTHORS.txt']
+Author: [Error: [Errno 2] No such file or directory: '/home/jnvilo/Projects/scriptslib/AUTHORS.txt']
 Author-email: jnvilo@gmail.com
 Maintainer: Jason Viloria
 License: UNKNOWN
 Download-URL: https://github.com/jnvilo/scriptslib/archive/0.0.1.tar.gz
-Description: UNKNOWN
+Description: This contains libraries of utilities and code snippets that I use and bundled them into one single 
+        library for ease of use. 
+        
+        
+        
 Keywords: scripts,admin,lib
 Platform: UNKNOWN
 Classifier: Environment :: Systems
