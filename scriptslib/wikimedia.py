@@ -23,9 +23,8 @@ class WikiMediaRequest(object):
         self.wiki_uri = f"{url_parts.scheme}://{url_parts.netloc}"
         self.session = requests.Session()
         
-        self.login()
         self.cache_dir = "/tmp"
-        
+        self.logged_in = False 
         
     def login(self):
         # Retrieve login token first
