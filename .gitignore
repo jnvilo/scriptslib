@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 __pycache__
 venv
 scriptslib.egg-info
+=======
+__pycache__/
+venv
+scriptslib.egg-info/
+build/
+dist/
+>>>>>>> 0cc2dd93a94faf6cf670f2b98874d55f2a315270

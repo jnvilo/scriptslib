@@ -1,8 +1,0 @@
-README.md
-setup.py
-scriptslib/__init__.py
-scriptslib/wikimedia.py
-scriptslib.egg-info/PKG-INFO
-scriptslib.egg-info/SOURCES.txt
-scriptslib.egg-info/dependency_links.txt
-scriptslib.egg-info/top_level.txt

@@ -15,7 +15,7 @@ import sys
 
 from setuptools import setup, find_packages, Command
 
-VERSION_STRING="0.0.1"
+VERSION_STRING="0.0.3"
 PACKAGE_NAME = "scriptslib"
 URL = "https://github.com/jnvilo/scriptslib"
 DOWNLOAD_URL="{}/archive/{}.tar.gz".format(URL, VERSION_STRING)
@@ -34,7 +34,7 @@ def get_authors():
 def get_requirements():
     reqs = []
     try:
-        f = file(os.path.join(PACKAGE_ROOT,"requirements.txt"), "r")
+        f = open(os.path.join(PACKAGE_ROOT,"requirements.txt"), "r")
         l = f.readlines()
         for e in l:
             reqs.append(e.strip("\n"))
@@ -78,13 +78,14 @@ setup(
     classifiers=[
         # http://pypi.python.org/pypi?%3Aaction=list_classifiers
         #"Development Status :: 5 - Production/Stable",
-        "Environment :: Systems",
+        "Environment :: Console",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License (GPL)",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
-        "Topic :: Documentation",
+        "Topic :: Software Development :: Libraries",
         ],
     #test_suite="yacms.tests.get_test_suite",
 )
