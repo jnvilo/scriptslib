@@ -2,6 +2,9 @@
 Common functions and classes and examples used in scripts when working with argparse.
 """
 
+import getpass
+
+
 class ArgParsePasswordHandler:
     """
     This is used to provide a password prompt for use with argparse.
