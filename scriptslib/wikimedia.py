@@ -69,7 +69,8 @@ class WikiMediaRequest(object):
         filename = self._get_cache_filename(path)
         with open(filename, "w") as f:
             f.write(content)
-            
+            return content
+       
     def _load_from_cache(self, path):
         
         filename = self._get_cache_filename(path)

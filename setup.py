@@ -62,7 +62,7 @@ setup(
     maintainer="Jason Viloria",
     url=URL,
     download_url = DOWNLOAD_URL, 
-    packages=find_packages(),
+    packages=["scriptslib"],
     install_requires=get_requirements(), 
     include_package_data=True, # include package data under svn source control
     #entry_points={
